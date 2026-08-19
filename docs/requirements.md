@@ -32,6 +32,8 @@ Desenvolver um sistema seguro que recupere clientes há mais de 40 dias sem comp
 ## Regras de Negócio
 - RN01 - É permitido somente um disparo por vez.
 - RN02 - Apenas administradores podem pausar o envio.
+- RN03 - Um contato não recebe mais de uma mensagem na mesma campanha.
+- RN04 - Contato com opt-out não entra em campanha.
 
 ## Escopo e Premissas
 

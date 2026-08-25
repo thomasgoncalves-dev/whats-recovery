@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: whatsrecovery-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: whatsrecovery
+      POSTGRES_USER: whatsrecovery
+      POSTGRES_PASSWORD: whatsrecovery
+    ports:
+      - "5432:5432"
+    volumes:
+      - whatsrecovery-postgres-data:/var/lib/postgresql/data
+
+volumes:
+  whatsrecovery-postgres-data:

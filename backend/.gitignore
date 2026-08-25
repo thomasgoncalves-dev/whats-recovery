@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Planilha CSV ###
+teste-contatos.csv
+backend/teste-contatos.csv 
